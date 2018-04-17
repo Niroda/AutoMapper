@@ -1,4 +1,4 @@
-package se.codepool.automapper_sample.entities;
+package se.codepool.automapper.entities;
 
 import java.util.ArrayList;
 import java.util.List;

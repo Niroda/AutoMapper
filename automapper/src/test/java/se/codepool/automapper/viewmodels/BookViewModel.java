@@ -1,4 +1,4 @@
-package se.codepool.automapper_sample.viewmodels;
+package se.codepool.automapper.viewmodels;
 
 import se.codepool.automapper.annotations.MapTo;
 import se.codepool.automapper.annotations.ViewModel;

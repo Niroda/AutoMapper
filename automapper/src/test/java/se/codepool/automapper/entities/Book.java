@@ -1,4 +1,4 @@
-package se.codepool.automapper_sample.entities;
+package se.codepool.automapper.entities;
 
 import se.codepool.automapper.entities.Author;
 

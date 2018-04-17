@@ -1,21 +1,16 @@
 package se.codepool.automapper_sample;
-
-import java.lang.reflect.Field;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import se.codepool.automapper.entities.Author;
+import se.codepool.automapper.entities.Book;
 import se.codepool.automapper.utilities.Mapper;
-import se.codepool.automapper_sample.entities.Author;
-import se.codepool.automapper_sample.entities.Book;
-import se.codepool.automapper_sample.viewmodels.AuthorViewModel;
-import se.codepool.automapper_sample.viewmodels.BookViewModel;
+import se.codepool.automapper.viewmodels.AuthorViewModel;
+import se.codepool.automapper.viewmodels.BookViewModel;
 
 public class App 
 {
-    public static void main( String[] args ) throws NoSuchFieldException, SecurityException
+    public static void main( String[] args )
     {
     	Author author = new Author(1, "James", "Gosling");
     	Book book = new Book(1, "The Java Language Specification", author);

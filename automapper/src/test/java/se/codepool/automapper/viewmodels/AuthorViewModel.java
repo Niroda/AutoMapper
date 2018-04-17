@@ -1,4 +1,4 @@
-package se.codepool.automapper_sample.viewmodels;
+package se.codepool.automapper.viewmodels;
 
 import java.util.ArrayList;
 import java.util.List;
